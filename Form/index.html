@@ -8,8 +8,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>PAYMENT FORM</h2>
-    <hr>
+    <div class="container">
+        <form action="" method="get">
+            <h2>PAYMENT FORM</h2>
+            <hr>
+            <p>Required field are followed by *</p>
+            <h2>Contact Information</h2>
+            <p>Name : <input placeholder="ex: rahim anjum" type="text" name="Name" required id="">
+            </p>
+            <P>
+                <fieldset>
+                    <legend>Gender</legend>
+                    Male<input type="radio" name="Gender" id="\" required>
+                    Female <input type="radio" name="Gender" id="" required>
+                </fieldset>
+            </P>
+            <p>
+                Adress: 
+                <textarea name="" id="" cols="60" rows="8"></textarea Required>
+            </p>
+            <p>
+                Email: <input placeholder="Enter email" type="email" name="Email" id="" required>
+            </p>
+            <p>
+                Phone: <input placeholder="Enter You're phone"type="number" name="Phone numbner" id="" required>
+            </p>
+            <hr>
+            <h2>Payment Information:</h2>
+            <p>
+                Card Type:
+                <select name="Card_type" id="Card_Type">
+                    <option value=>Select Card Type</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Debit_Card">Debit Card</option>
+                    <option value="Credit_Card">Credit Card</option>
+                    <select>
+            </p>
+            <p>
+                Mobile Banking:
+                <select name="Mobile_Banking" id="Mobile_Banking">
+                    <option value="">Select</option>
+                    <option value="Bkash">BKash</option>
+                    <option value="Rocket">Rocket</option>
+                    <option value="Nagad">Nagad</option>
+                </select>
+            </p>
+            <input type="submit" value="Pay now ">
+            
+        </form>
+    </div>
+   
+
+
     
 </body>
 </html>
