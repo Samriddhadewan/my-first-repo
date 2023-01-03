@@ -10,9 +10,9 @@
 <body>
     <div class="container">
         <form action="" method="get">
-            <h2>PAYMENT FORM</h2>
+            <h2 class="main-heading">PAYMENT FORM</h2>
             <hr>
-            <p>Required field are followed by *</p>
+            <p id="required">Required field are followed by *</p>
             <h2>Contact Information</h2>
             <p>Name : <input placeholder="ex: rahim anjum" type="text" name="Name" required id="">
             </p>
@@ -24,8 +24,7 @@
                 </fieldset>
             </P>
             <p>
-                Adress: 
-                <textarea name="" id="" cols="60" rows="8"></textarea Required>
+                Adress: <input type="text">
             </p>
             <p>
                 Email: <input placeholder="Enter email" type="email" name="Email" id="" required>
@@ -47,10 +46,10 @@
             <p>
                 Mobile Banking:
                 <select name="Mobile_Banking" id="Mobile_Banking">
-                    <option value="">Select</option>
-                    <option value="Bkash">BKash</option>
-                    <option value="Rocket">Rocket</option>
-                    <option value="Nagad">Nagad</option>
+                    <option value="">Select</option required>
+                    <option value="Bkash">BKash</option required>
+                    <option value="Rocket">Rocket</option required>
+                    <option value="Nagad">Nagad</option Required>
                 </select>
             </p>
             <input type="submit" value="Pay now ">
